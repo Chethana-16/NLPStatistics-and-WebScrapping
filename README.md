@@ -10,5 +10,6 @@ This project addresses the following tasks:
 4. A comparison of the statistics between the input text and statistics is returned from the
    earlier task(aggregated_results) in another web page.
 
-The folder named **"py"** contains all the files which include, **webscrap.ipynb** file with the python code for web scrapping and calculating NLP statistics, **nlp_stats.csv** file which contains the results and **webscrap folder** which in turn contains all the files related to the web application. 
-The **webscrap folder** inside the py folder contains the **aggregated_results.csv** (in **src/main/resources/templates**). 
+The repository contains two folder:
+1. "py" folder - contains the python code for web scrapping and NLP Statistics
+2. "NLP_stats_WebApp" folder - contains folders related to the web application. 
