@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison Result</title>
+</head>
+<body>
+<h1>Comparison Result</h1>
+
+<!-- Display input statistics -->
+<h2>Input Statistics:</h2>
+<p>Total Words: <span th:text="${inputTotalWords}"></span></p>
+<p>Unique Word Count: <span th:text="${inputUniqueWordCount}"></span></p>
+<p>Average Word Length: <span th:text="${inputAverageWordLength}"></span></p>
+<p>Sentence Count: <span th:text="${inputSentenceCount}"></span></p>
+<p>Most Frequent Word: <span th:text="${inputMostFrequentWord}"></span></p>
+
+<!-- Display aggregated statistics -->
+<h2>Aggregated Statistics:</h2>
+<p>Average Total Words: <span th:text="${aggregatedStats['average_total_words']}"></span></p>
+<p>Average Unique Words: <span th:text="${aggregatedStats['average_unique_words']}"></span></p>
+<p>Average Word Length: <span th:text="${aggregatedStats['average_word_length']}"></span></p>
+<p>Average Sentences: <span th:text="${aggregatedStats['average_sentences']}"></span></p>
+
+<!-- Add more comparison details or content as needed -->
+</body>
+</html>

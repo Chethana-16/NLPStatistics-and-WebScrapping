@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Analysis Result</title>
+</head>
+<body>
+<p>Total Words: <span th:text="${totalWords}"></span></p>
+<p>Unique Words: <span th:text="${uniqueWordCount}"></span></p>
+<p>Average Word Length: <span th:text="${averageWordLength}"></span></p>
+<p>Total Sentences: <span th:text="${sentenceCount}"></span></p>
+<p>Most Frequent Word: <span th:text="${mostFrequentWord}"></span></p>
+<a href="/">Try another text</a>
+</body>
+</html>
